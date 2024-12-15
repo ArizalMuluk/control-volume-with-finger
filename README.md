@@ -25,7 +25,7 @@ Before running the application, make sure you have the following libraries insta
    git clone https://github.com/username/repo.git
    cd repo```
 2. Install the required libraries:
-   ``bash
+   ```bash
    pip install opencv-python numpy pyalsaaudio
    ```
 3. Make sure you have the FingerTrackModule module. You may need to download or install it separately.
