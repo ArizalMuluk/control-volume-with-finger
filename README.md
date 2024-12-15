@@ -47,4 +47,4 @@ python3 volume_control.py
 ## Contribution
 If you would like to contribute, please create a pull request or open an issue for discussion.
 
-# Note: This python program is only supported when run on linux OS!
+### Note: This python program is only supported when run on linux OS!
