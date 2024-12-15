@@ -1,7 +1,7 @@
 # Volume Control Using Hand Gestures
 
 ## Description
-This project is a volume control application that uses hand gesture detection to change the audio volume. Using the index finger and thumb, the user can turn down or turn up the volume by simply changing the distance between the two fingers. This application utilizes `OpenCV` for image processing and `alsaaudio` to control the system volume.
+This project is a volume control application that uses hand gesture detection to change the audio volume. Using the index finger and thumb, the user can turn down or turn up the volume by simply changing the distance between the two fingers. This application utilizes `OpenCV` and `Mediapipe` for image processing and `alsaaudio` to control the system volume.
 
 ## Features
 - Hand detection using machine learning models.
@@ -14,6 +14,7 @@ Before running the application, make sure you have the following libraries insta
 
 - Python 3.x
 - OpenCV
+- Mediapipe
 - NumPy
 - alsaaudio
 - FingerTrackModule (hand detection module)
