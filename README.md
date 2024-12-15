@@ -22,7 +22,7 @@ Before running the application, make sure you have the following libraries insta
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/username/repo.git
+   git clone https://github.com/ArizalMuluk/control-volume-with-finger.git
    cd repo
    ```
 2. Install the required libraries:
