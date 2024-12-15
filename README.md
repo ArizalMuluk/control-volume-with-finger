@@ -24,23 +24,26 @@ Before running the application, make sure you have the following libraries insta
    ```bash
    git clone https://github.com/username/repo.git
    cd repo```
-2. Instal library yang dibutuhkan:
-   ```bash
+2. Install the required libraries:
+   ``bash
    pip install opencv-python numpy pyalsaaudio
    ```
-3. Pastikan Anda memiliki modul FingerTrackModule. Anda mungkin perlu mengunduh atau menginstalnya secara terpisah.
+3. Make sure you have the FingerTrackModule module. You may need to download or install it separately.
 
-## Cara Menggunakan
-1. Jalankan skrip Python:
+## How to use
+1. Run the Python script:
 ```bash
 python3 volume_control.py
 ```
-2. Arahkan kamera Anda ke tangan dan gunakan jari telunjuk dan ibu jari untuk mengontrol volume:
+2. Point your camera at your hand and use your index finger and thumb to control the volume:
 
-- Jari yang berdekatan (jarak < 25 piksel) akan mengatur volume ke minimum (0%).
-- Jari yang berjauhan (jarak > 200 piksel) akan mengatur volume ke maksimum (100%).
-- Jarak di antara keduanya akan mengatur volume secara proporsional.
+- Fingers that are close together (< 25 pixels apart) will set the volume to minimum (0%).
+- Fingers that are far apart (distance > 200 pixels) will set the volume to maximum (100%).
+- The distance in between will adjust the volume proportionally.
 
-3. Tekan q untuk keluar dari aplikasi.
+3. Press q to exit the app.
 
+## Contribution
+If you would like to contribute, please create a pull request or open an issue for discussion.
 
+# Note: This python program is only supported when run on linux OS!
