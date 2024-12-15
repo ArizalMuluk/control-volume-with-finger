@@ -34,7 +34,7 @@ Before running the application, make sure you have the following libraries insta
 ## How to use
 1. Run the Python script:
 ```bash
-python3 volume_control.py
+python3 VolCtrlWithFinger.py
 ```
 2. Point your camera at your hand and use your index finger and thumb to control the volume:
 
