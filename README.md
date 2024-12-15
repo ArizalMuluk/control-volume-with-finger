@@ -23,7 +23,8 @@ Before running the application, make sure you have the following libraries insta
 1. Clone this repository:
    ```bash
    git clone https://github.com/username/repo.git
-   cd repo```
+   cd repo
+   ```
 2. Install the required libraries:
    ```bash
    pip install opencv-python numpy pyalsaaudio
